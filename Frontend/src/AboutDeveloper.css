@@ -1,0 +1,38 @@
+.about-developer {
+   margin: 0;
+  padding: 0; 
+  background: #000;
+  
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  
+}
+
+.about-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px solid #007bff;
+  padding: 5px;
+  transition: transform 0.3s ease;
+  
+}
+
+.about-img:hover {
+  transform: scale(1.05);
+}
+.about-developer h2 {
+  color: #00ffff; /* Aqua / Cyan */
+}
+
+.about-developer p {
+  color: aqua;    /* Light gray text */
+}
+.developer-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px solid #00ffff; /* Aqua Frame */
+  object-fit: cover;
+}
+
+
